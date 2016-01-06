@@ -6,7 +6,6 @@ from Queue import PriorityQueue
 
 
 def solution(lsts):
-
     class MinQueue(object):
         class ItemIndexPair(object):
             def __init__(self, key, value):
@@ -26,11 +25,8 @@ def solution(lsts):
 
     min_queue = MinQueue()
 
-
-
     for i in range(len(lsts)):
         min_queue.enqueue((i, 0), lsts[i][0])
-
 
     while True:
         cur = min_queue.dequeue()
