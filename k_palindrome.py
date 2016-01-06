@@ -10,3 +10,4 @@ def solution(word, k):
         return solution(word[1:], k - 1) or solution(word[:-1], k - 1)
     else:
         return solution(word[1:-1], k)
+
