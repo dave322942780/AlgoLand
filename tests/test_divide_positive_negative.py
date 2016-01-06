@@ -3,6 +3,7 @@ from divide_positive_negative import solution
 
 
 class DividePositiveNegativeTestCase(unittest.TestCase):
+
     def test_negatives(self):
         negative_lst = [-2, -4, -6, -7]
         solution(negative_lst)
@@ -13,10 +14,20 @@ class DividePositiveNegativeTestCase(unittest.TestCase):
         solution(positive_lst)
         self.assertEqual(positive_lst, [2, 4, 6, 7])
 
-    def test_positive_negative(self):
-        lst = [2, 4, 6, 7]
+    def test_negative_positive(self):
+        lst = [-2, -3, -5, -10, 2, 4, 6, 7]
         solution(lst)
-        self.assertEqual(lst, [2, 4, 6, 7])
+        self.assertEqual(lst, [-2, -3, -5, -10, 2, 4, 6, 7])
+
+    def test_positive_negative(self):
+        lst = [2, 4, 6, 7, -2, -3, -5, -10]
+        solution(lst)
+        self.assertEqual(lst, [-2, -3, -5, -10, 2, 4, 6, 7])
+
+    def test_mixed(self):
+        lst = [-3, 2, 4, -2, 6, 7, -5, -10]
+        solution(lst)
+        self.assertEqual(lst, [-3, -2, -5, -10, 2, 4, 6, 7])
 
 
 if __name__ == '__main__':
