@@ -1,6 +1,6 @@
 # http://www.careercup.com/question?id=6287528252407808
-# difficulty: easy
-# category: recursion
+# difficulty: 2
+# length: 3
 
 
 def solution(word, k):
