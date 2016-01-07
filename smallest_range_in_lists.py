@@ -2,28 +2,10 @@
 # difficulty: 4
 # length: 5
 
-from Queue import PriorityQueue
+from objects.MinQueue import MinQueue
 
 
 def solution(lsts):
-    class MinQueue(object):
-        class ItemIndexPair(object):
-            def __init__(self, key, value):
-                self.value = value
-                self.index = key
-
-            def __cmp__(self, other):
-                return self.value > other.value
-
-        queue = PriorityQueue()
-
-        def enqueue(self, value, index):
-            self.queue.put(self.ItemIndexPair(value, index))
-
-        def dequeue(self):
-            if self.queue.empty():
-                return None
-            return self.queue.get().index
 
     min_queue = MinQueue()
     greedy_iter = []

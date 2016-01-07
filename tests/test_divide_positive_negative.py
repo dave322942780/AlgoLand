@@ -1,5 +1,5 @@
 import unittest
-from divide_positive_negative import solution
+from divide_negative_positive import solution
 
 
 class DividePositiveNegativeTestCase(unittest.TestCase):
@@ -28,7 +28,3 @@ class DividePositiveNegativeTestCase(unittest.TestCase):
         lst = [-3, 2, 4, -2, 6, 7, -5, -10]
         solution(lst)
         self.assertEqual(lst, [-3, -2, -5, -10, 2, 4, 6, 7])
-
-
-if __name__ == '__main__':
-    unittest.main()

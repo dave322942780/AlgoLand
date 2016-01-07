@@ -16,7 +16,3 @@ class KPalindromeTestCase(unittest.TestCase):
         self.assertTrue(solution("wwr", 1))
         self.assertFalse(solution("3wwr4", 2))
         self.assertTrue(solution("3w4r4", 2))
-
-
-if __name__ == '__main__':
-    unittest.main()

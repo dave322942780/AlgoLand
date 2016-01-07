@@ -1,3 +1,7 @@
+# http://www.careercup.com/question?id=19286747
+# difficulty: 3
+# length: 3
+
 
 def solution(lst):
     i = 0
