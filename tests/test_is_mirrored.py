@@ -1,6 +1,7 @@
 import unittest
+
+from data_structures_basic.Node import Node
 from is_mirrored_tree import solution
-from objects.Node import Node
 
 
 class IsMirroredTreeTestCase(unittest.TestCase):
@@ -9,95 +10,49 @@ class IsMirroredTreeTestCase(unittest.TestCase):
 
     def test_with_children_false(self):
         self.assertFalse(solution(
-                Node("root",
-                     Node("second_level_diff_1"),
-                     Node("second_level_diff_2"))))
-
-        self.assertFalse(solution(
-                Node("root",
-                     Node("second_level_same",
-                          Node("third_level_structure_diff"),
-                          None
-                          ),
-                     Node("second_level_same",
-                          Node("third_level_structure_diff"),
-                          None
-                          )
-                     )
+                Node.parse_tree("[[second_level_diff_1]"
+                                       "root"
+                                       "[second_level_diff_2]]")
         ))
 
         self.assertFalse(solution(
-                Node("root",
-                     Node("second_level_same",
-                          Node("third_level_same",
-                               Node("forth_level_diff_1"),
-                               None
-                               ),
-                          None
-                          ),
-                     Node("second_level_same",
-                          None,
-                          Node("third_level_same",
-                               None,
-                               Node("forth_level_diff_2")
-                               )
-                          )
-                     )
+                Node.parse_tree("[[[third_level_structure_diff]second_level_same]"
+                                       "root"
+                                       "[[third_level_structure_diff]second_level_same]]")
         ))
 
         self.assertFalse(solution(
-                Node("root",
-                     Node("second_level_same",
-                          Node("third_level_same",
-                               Node("forth_level_structure_diff"),
-                               None
-                               ),
-                          None
-                          ),
-                     Node("second_level_same",
-                          None,
-                          Node("third_level_same",
-                               Node("forth_level_structure_diff"),
-                               None
-                               )
-                          )
-                     )
+                Node.parse_tree("[[second_level_same[third_level_same[forth_level_diff_1]]]"
+                                       "root"
+                                       "[[[forth_level_diff_2]third_level_same]second_level_same]")
+        ))
+
+        self.assertFalse(solution(
+                Node.parse_tree("[[[[forth_level_structure_diff]third_level_same]second_level_same]"
+                                       "root"
+                                       "[second_level_same[[forth_level_structure_diff]third_level_same]]]")
+
         ))
 
     def test_with_children_true(self):
         self.assertTrue(solution(
-                Node("root",
-                     Node("second_level_same"),
-                     Node("second_level_same"))))
-
-        self.assertTrue(solution(
-                Node("root",
-                     Node("second_level_same",
-                          None,
-                          Node("third_level_same")
-                          ),
-                     Node("second_level_same",
-                          Node("third_level_same"),
-                          None
-                          )
-                     )
+                Node.parse_tree("[[second_level_same]"
+                                       "root"
+                                       "[second_level_same]]")
         ))
 
         self.assertTrue(solution(
-                Node("root",
-                     Node("second_level_same",
-                          Node("third_level_same",
-                               Node("forth_level_same"),
-                               None
-                               ),
-                          None
-                          ),
-                     Node("second_level_same",
-                          None,
-                          Node("third_level_same",
-                               None,
-                               Node("forth_level_same")
-                               )
-                          )
-                     )
+                Node.parse_tree("[[[third_level_same]second_level_same]"
+                                       "root"
+                                       "[second_level_same[third_level_same]]]")
         ))
+
+        self.assertTrue(solution(
+                Node.parse_tree("[[[third_level_same[forth_level_same]]second_level_same]"
+                                       "root"
+                                       "[second_level_same[[forth_level_same]third_level_same]]]")
+        ))
+
+
+if __name__ == '__main__':
+    unittest.main()

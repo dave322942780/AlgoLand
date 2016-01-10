@@ -2,11 +2,10 @@
 # difficulty: 4
 # length: 5
 
-from objects.MinQueue import MinQueue
+from data_structures_basic.MinQueue import MinQueue
 
 
 def solution(lsts):
-
     min_queue = MinQueue()
     greedy_iter = []
 

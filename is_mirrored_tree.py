@@ -9,4 +9,3 @@ def _solution(left, right):
 
 def solution(node):
     return _solution(node.left, node.right)
-

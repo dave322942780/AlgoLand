@@ -1,4 +1,5 @@
 import unittest
+
 from fall_probability import solution
 
 
@@ -11,3 +12,7 @@ class FallProbabilityTestCase(unittest.TestCase):
         self.assertTrue(solution(1, 1, 2, 2), 0.25)
         self.assertTrue(solution(1, 0, 2, 2), 0.25)
         self.assertTrue(solution(1, 1, 3, 1), 1)
+
+
+if __name__ == '__main__':
+    unittest.main()

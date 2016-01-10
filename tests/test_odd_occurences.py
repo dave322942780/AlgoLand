@@ -1,4 +1,5 @@
 import unittest
+
 from find_odd_occurances import solution
 
 
@@ -9,3 +10,7 @@ class OddOccurrencesTestCase(unittest.TestCase):
         self.assertEqual(len(res), 2)
         self.assertIn(4, res)
         self.assertIn(8, res)
+
+
+if __name__ == '__main__':
+    unittest.main()
