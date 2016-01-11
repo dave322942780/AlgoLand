@@ -1,22 +1,18 @@
 # http://www.careercup.com/question?id=15320677
-
-def _flatten(node):
-    if node is None:
-        return []
-    else:
-        return _flatten(node.left) + [node] + _flatten(node.right)
+from data_structures_basic.MaxBSTQueue import MinBSTQueue, MaxBSTQueue
 
 
-def solution(node, k):
-    node_lst_format = _flatten(node)
-    i = 0
-    j = len(node_lst_format) - 1
+def solution(root, k):
+    min_bst_queue = MinBSTQueue(root)
+    max_bst_queue = MaxBSTQueue(root)
+    i = min_bst_queue.get()
+    j = max_bst_queue.get()
     while i < j:
-        i_j_sum = node_lst_format[j].value + node_lst_format[i].value
+        i_j_sum = i.value + j.value
         if i_j_sum == k:
-            return node_lst_format[i], node_lst_format[j]
+            return i, j
         elif i_j_sum > k:
-            j -= 1
+            j = max_bst_queue.get()
         elif i_j_sum < k:
-            i += 1
+            i = min_bst_queue.get()
     return None

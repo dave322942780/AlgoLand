@@ -1,6 +1,4 @@
 # http://www.careercup.com/question?id=15556758
-# difficulty: 2
-# length: 2
 
 
 def solution(x, y, size, step):

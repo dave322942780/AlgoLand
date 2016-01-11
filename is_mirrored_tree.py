@@ -1,3 +1,4 @@
+# http://www.careercup.com/question?id=12627678
 def _solution(left, right):
     if (not left and right) or (left and not right):
         return False

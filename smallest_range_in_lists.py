@@ -1,8 +1,5 @@
 # http://www.careercup.com/question?id=16759664
-# difficulty: 4
-# length: 5
-
-from data_structures_basic.MinQueue import MinQueue
+from data_structures_basic.IndexedMinQueue import MinQueue
 
 
 def solution(lsts):

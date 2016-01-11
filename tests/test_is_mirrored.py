@@ -1,6 +1,6 @@
 import unittest
 
-from data_structures_basic.Node import Node
+from data_structures_basic.BinaryNode import Node
 from is_mirrored_tree import solution
 
 

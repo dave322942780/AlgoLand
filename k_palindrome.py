@@ -1,8 +1,4 @@
 # http://www.careercup.com/question?id=6287528252407808
-# difficulty: 2
-# length: 3
-
-
 def solution(word, k):
     if k < 0:
         return False

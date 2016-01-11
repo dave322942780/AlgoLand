@@ -1,7 +1,4 @@
 # http://www.careercup.com/question?id=21263687
-# difficulty: 1
-# length: 1
-
 
 def solution(lst):
     xor_product = 0

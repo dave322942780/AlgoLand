@@ -1,3 +1,5 @@
+# http://www.careercup.com/question?id=15422849
+
 def _solution(lst, start, end, semantic_array):
     if semantic_array[start][end]:
         return semantic_array[start][end]
@@ -11,6 +13,7 @@ def _solution(lst, start, end, semantic_array):
     elif start == end - 2:
         semantic_array[start][end] = max(lst[start], lst[end - 1])
     return semantic_array[start][end]
+
 
 def solution(lst):
     length = len(lst)

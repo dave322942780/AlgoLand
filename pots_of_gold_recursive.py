@@ -1,3 +1,5 @@
+# http://www.careercup.com/question?id=15422849
+
 def _solution(lst, start, end):
     if start < end - 2:
         skip_edges = _solution(lst, start + 1, end - 1)

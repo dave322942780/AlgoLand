@@ -1,6 +1,6 @@
 import unittest
 
-from data_structures_basic.Node import Node
+from data_structures_basic.BinaryNode import Node
 from bst_two_nodes_sum_to_k import solution
 
 class NodesSumToKTestCase(unittest.TestCase):
