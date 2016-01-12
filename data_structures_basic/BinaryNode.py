@@ -1,4 +1,4 @@
-class Node(object):
+class BinaryNode(object):
     def __init__(self, value=None, left=None, right=None):
         self.value = value
         self.left = left
@@ -33,7 +33,7 @@ class Node(object):
             right_end = get_top_lvl(value_end_idx) if str_format[value_end_idx] == "[" else None
             right = None if right_end is None else _parse_tree(str_format[value_end_idx:right_end])
 
-            return Node(value, left, right)
+            return BinaryNode(value, left, right)
 
         return _parse_tree(root_str_format)
 
@@ -43,3 +43,9 @@ class Node(object):
             res += "\t(left)" + self.left.__str__().strip("\n").replace("\n", "\n\t") + "\n"
             res += "\t(right)" + self.right.__str__().strip("\n").replace("\n", "\n\t")
         return res
+
+    def __eq__(self, other):
+        if other is None:
+            return False
+        else:
+            return self.value == other.value and self.left == other.left and self.right == other.right

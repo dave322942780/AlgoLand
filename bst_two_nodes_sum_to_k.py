@@ -1,5 +1,5 @@
 # http://www.careercup.com/question?id=15320677
-from data_structures_basic.MaxBSTQueue import MinBSTQueue, MaxBSTQueue
+from data_structures_basic.BSTQueue import MinBSTQueue, MaxBSTQueue
 
 
 def solution(root, k):
@@ -7,7 +7,7 @@ def solution(root, k):
     max_bst_queue = MaxBSTQueue(root)
     i = min_bst_queue.get()
     j = max_bst_queue.get()
-    while i < j:
+    while i is not j:
         i_j_sum = i.value + j.value
         if i_j_sum == k:
             return i, j

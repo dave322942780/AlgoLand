@@ -1,9 +1,9 @@
 # http://www.careercup.com/question?id=16759664
-from data_structures_basic.IndexedMinQueue import MinQueue
+from data_structures_basic.IndexedMinQueue import IndexedMinQueue
 
 
 def solution(lsts):
-    min_queue = MinQueue()
+    min_queue = IndexedMinQueue()
     greedy_iter = []
 
     for i in range(len(lsts)):

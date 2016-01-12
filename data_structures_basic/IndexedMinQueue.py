@@ -1,7 +1,7 @@
 from Queue import PriorityQueue
 
 
-class MinQueue(object):
+class IndexedMinQueue(object):
     class ItemIndexPair(object):
         def __init__(self, key, value):
             self.value = value
