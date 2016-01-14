@@ -29,13 +29,17 @@ class BinaryNode(object):
                     value_end_idx = i
                     break
             value = data_type(str_format[value_start_idx: value_end_idx])
-
             right_end = get_top_lvl(value_end_idx) if str_format[value_end_idx] == "[" else None
             right = None if right_end is None else _parse_tree(str_format[value_end_idx:right_end])
 
             return BinaryNode(value, left, right)
 
         return _parse_tree(root_str_format)
+
+    def create_deep_copy(self):
+        left = self.left.create_deep_copy() if self.left else None
+        right = self.right.create_deep_copy() if self.right else None
+        return BinaryNode(self.value, left, right)
 
     def __str__(self):
         res = str(self.value) + "\n"
