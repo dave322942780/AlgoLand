@@ -1,17 +1,15 @@
 def remove_repetitive_get_largest(number):
     number = str(number)
-    i = len(number) - 2
     curMax = -1
-    while (i >= 0):
-        if number[i + 1] == number[i]:
+    for i in range(1, len(number)):
+        if number[i] == number[i-1]:
             removed_ith = int(number[:i] + number[i + 1:])
             # if the current removed element is less
             # than the digit to right, simply return, it's already the max
-            if i - 1 >= 0 and number[i] < number[i - 1]:
+            if i + 1  < len(number) and number[i] < number[i + 1]:
                 return removed_ith
             else:
                 curMax = max(removed_ith, curMax)
-        i-=1
     return curMax
 
 print remove_repetitive_get_largest(11233445)
