@@ -51,4 +51,4 @@ str_rep = str_rep.replace("\n", "")
 # str_rep is now 
 # 'dir dir1  dir11   dir111 dir12   file.jpg dir2  file2.jpg dir3'
 print get_files(str_rep, ".jpg")
-# prints ['dir/dir1/file.jpg', 'dir/dir1/file2.jpg']
+# prints ['dir/dir12/file.jpg', 'dir/dir2/file2.jpg']
