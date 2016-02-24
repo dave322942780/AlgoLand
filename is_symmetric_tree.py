@@ -1,4 +1,6 @@
 # http://www.careercup.com/question?id=12627678
+# given two binary trees' root node, judge whether they're mirrored.
+
 def _solution(left, right):
     if (not left and right) or (left and not right):
         return False
