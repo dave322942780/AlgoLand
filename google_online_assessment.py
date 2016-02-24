@@ -25,12 +25,10 @@ def get_files(str_rep, extension):
     res = []
     for line in re.findall(" *[^ ]+", str_rep):
         cur_level = len(re.search("^ *", line).group())
-        # stepped in one level
-        if prev_level == cur_level - 1:
-            cur_path.append(line[cur_level:])
-        # stepped out cur directory
-        else:
-            cur_path = cur_path[:cur_level + 1]
+        # didn't step in a directory
+        if prev_level != cur_level - 1:
+            cur_path = cur_path[:cur_level]
+        cur_path.append(line[cur_level:])
         
         if cur_path[-1].endswith(extension):
             res.append("/".join(cur_path))
