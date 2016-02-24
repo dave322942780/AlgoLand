@@ -12,7 +12,7 @@ reverse_converter = {val:key for key, val in converter.iteritems()}
 def convert_to_morse(word):
     return "".join([converter[char] for char in word if char in converter])
 
-def find_duplicated_morse_code_for_word(words):
+def find_duplicated_morse_code_for_words(words):
     morse_to_char = {}
     hashed_code_map = {}
     duplicates = set()
@@ -35,13 +35,13 @@ def find_duplicated_morse_code_for_word(words):
     
     return res
 
-print find_duplicated_morse_code_for_word(["hi", "ih"])
+print find_duplicated_morse_code_for_words(["hi", "ih"])
 # prints {'......': ['hi', 'ih']}
-print find_duplicated_morse_code_for_word(["hi", "ih", "a"])
+print find_duplicated_morse_code_for_words(["hi", "ih", "a"])
 # prints {'......': ['hi', 'ih']}
-print find_duplicated_morse_code_for_word(["hi", "ih", "a", "a"])
+print find_duplicated_morse_code_for_words(["hi", "ih", "a", "a"])
 # prints {'......': ['hi', 'ih'], '.-': ['a', 'a']}
-print find_duplicated_morse_code_for_word(["hi", "ih", "a", "a", "c"])
+print find_duplicated_morse_code_for_words(["hi", "ih", "a", "a", "c"])
 # prints {'......': ['hi', 'ih'], '.-': ['a', 'a']}
-print find_duplicated_morse_code_for_word(["hi", "ih", "a", "b", "c"])
+print find_duplicated_morse_code_for_words(["hi", "ih", "a", "b", "c"])
 # prints {'......': ['hi', 'ih']}
