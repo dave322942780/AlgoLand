@@ -1,7 +1,7 @@
 import unittest
 
 from data_structures_basic.BSTQueue import MinBSTQueue
-from data_structures_basic.BSTQueue import BinaryNode
+from data_structures_basic.BinaryNode import BinaryNode
 
 
 class MyBSTQueue(unittest.TestCase):

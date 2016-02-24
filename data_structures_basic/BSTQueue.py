@@ -36,6 +36,7 @@ class MinBSTQueue(object):
                 edge[1] = True
                 return edge_node
 
+
 class MaxBSTQueue(object):
     cur_path = []
     _reverse = False
