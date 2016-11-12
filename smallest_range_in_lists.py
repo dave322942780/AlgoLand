@@ -12,6 +12,7 @@
 
 from data_structures_basic.IndexedMinQueue import IndexedMinQueue
 
+
 def solution(lsts):
     min_queue = IndexedMinQueue()
     greedy_iter = []

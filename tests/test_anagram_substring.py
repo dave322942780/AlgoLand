@@ -1,22 +1,19 @@
 # https://careercup.com/question?id=19286747
 import unittest
 
-from disjoint_lst_max_abs_diff import disjoint_lst_max_abs_diff
+from anagram_substring import solution
 
 
-class DisjointLstMaxAbsDiffTestCase(unittest.TestCase):
-    def test_disjoint_lst_max_abs_diff(self):
-        lst = [2, -1, -2, 1, -4, 2, 8]
-        self.assertEqual(disjoint_lst_max_abs_diff(lst), [[-1, -2, 1, -4], [2, 8], 16])
+class AnagramSubstringTestCase(unittest.TestCase):
+    def test_anagram_substring(self):
+        self.assertTrue(solution("aabc", "adsgbaacariojgw"))
 
-    def test_disjoint_lst_max_abs_diff_2(self):
-        lst = [2, -1, -2, 1, -4, 2, 8, -1]
-        self.assertEqual(disjoint_lst_max_abs_diff(lst), [[-1, -2, 1, -4], [2, 8], 16])
+    def test_anagram_substring2(self):
+        self.assertFalse(solution("aabc", "adsgbacriojgw"))
 
-    def test_disjoint_lst_max_abs_diff_3(self):
-        lst = [-1, -2, 1, -4, 2, 8, -1]
-        self.assertEqual(disjoint_lst_max_abs_diff(lst), [[-1, -2, 1, -4], [2, 8], 16])
+    def test_anagram_substring3(self):
+        self.assertTrue(solution("a", "adsgbaacariojgw"))
 
-    def test_disjoint_lst_max_abs_diff_3(self):
-        lst = [-1, -2, 1, -4, 2, 8]
-        self.assertEqual(disjoint_lst_max_abs_diff(lst), [[-1, -2, 1, -4], [2, 8], 16])
+
+if __name__ == '__main__':
+    unittest.main()
