@@ -1,5 +1,6 @@
 
 def heap_sort(lst):
+    # create max heap
     for i in range(len(lst)):
         cur = i
         parent = (i - 1) / 2
@@ -11,6 +12,8 @@ def heap_sort(lst):
             cur = parent
             parent = (parent - 1) / 2
     j = len(lst) - 1
+
+    # iterative remove max and put it at the end
     while j != 0:
         lst[0], lst[j] = lst[j], lst[0]
         cur = 0

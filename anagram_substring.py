@@ -1,15 +1,22 @@
 # https://www.careercup.com/question?id=5389078581215232
 def solution(str1, str2):
-    hash_size = 1024
-    str1_counter = [0, ] * hash_size
-    for char in str1:
-        str1_counter[ord(char) % hash_size] += 1
+    hash_size = 26
+
+    def get_hashed_counters(string):
+        res = [0, ] * hash_size
+        for char in string:
+            res[ord(char) % hash_size] += 1
+        return res
+
+    str1_counters = get_hashed_counters(str1)
+    sub_str_counters = get_hashed_counters(str2[0:len(str1)])
+
+    if str1_counters == sub_str_counters:
+        return True
 
     for i in range(len(str2) - len(str1)):
-        counter = [0, ] * hash_size
-        sub_str = str2[i:i + len(str1)]
-        for char in sub_str:
-            counter[ord(char) % hash_size] += 1
-        if counter == str1_counter:
+        sub_str_counters[i] -= 1
+        sub_str_counters[i + len(str1)] += 1
+        if str1_counters == sub_str_counters:
             return True
     return False
