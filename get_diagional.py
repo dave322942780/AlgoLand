@@ -1,3 +1,4 @@
+# https://www.careercup.com/question?id=5661939564806144
 def get_left_down_diagonal_lst(matrix, x, y, x_length, y_length):
     lst = []
     while x >= 0 and y < y_length:
