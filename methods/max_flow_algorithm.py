@@ -10,6 +10,7 @@ class Edge(object):
     def __repr__(self):
         return "{%s --(%s)--> %s}" % (self.from_node, self.capacity, self.to_node)
 
+
 #
 #   source --> 1 -------- 3/5 -------> 3
 #              |                       |
