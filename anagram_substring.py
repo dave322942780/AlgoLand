@@ -9,14 +9,14 @@ def solution(str1, str2):
         return res
 
     str1_counters = get_hashed_counters(str1)
-    sub_str_counters = get_hashed_counters(str2[0:len(str1)])
+    sub_str_counters = get_hashed_counters(str2[:len(str1)])
 
     if str1_counters == sub_str_counters:
         return True
 
     for i in range(len(str2) - len(str1)):
-        sub_str_counters[i] -= 1
-        sub_str_counters[i + len(str1)] += 1
+        sub_str_counters[ord(str2[i]) % hash_size] -= 1
+        sub_str_counters[ord(str2[i + len(str1)]) % hash_size] += 1
         if str1_counters == sub_str_counters:
             return True
     return False

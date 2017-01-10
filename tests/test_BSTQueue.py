@@ -4,7 +4,7 @@ from data_structures_basic.BSTQueue import MinBSTQueue
 from data_structures_basic.BinaryNode import BinaryNode
 
 
-class MyBSTQueue(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_one_node(self):
         min_bst_queue = MinBSTQueue(BinaryNode.parse_tree("[1]", int))
         self.assertEqual(min_bst_queue.get().value, 1)
@@ -30,5 +30,3 @@ class MyBSTQueue(unittest.TestCase):
         self.assertEqual(min_bst_queue.get().value, 6)
 
 
-if __name__ == '__main__':
-    unittest.main()

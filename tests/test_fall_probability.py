@@ -3,7 +3,7 @@ import unittest
 from fall_probability import solution
 
 
-class FallProbabilityTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_one(self):
         self.assertEqual(solution(0, 0, 1, 1), 0)
 
@@ -14,5 +14,3 @@ class FallProbabilityTestCase(unittest.TestCase):
         self.assertTrue(solution(1, 1, 3, 1), 1)
 
 
-if __name__ == '__main__':
-    unittest.main()

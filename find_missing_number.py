@@ -9,7 +9,6 @@ def solution(lst):
             lst[idx] = None
             cur = new_cur
     res = []
-    print lst
     for i in range(len(lst)):
         if lst[i] is not None:
             res.append(i + 1)

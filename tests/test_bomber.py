@@ -3,7 +3,7 @@ import unittest
 from bomber import solution
 
 
-class BomberTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_base(self):
         self.assertEqual(solution([[1]]), (0, 0))
 
@@ -19,5 +19,3 @@ class BomberTestCase(unittest.TestCase):
                                   ), (0, 1))
 
 
-if __name__ == '__main__':
-    unittest.main()

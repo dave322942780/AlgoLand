@@ -4,7 +4,7 @@ import unittest
 from anagram_substring import solution
 
 
-class AnagramSubstringTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_anagram_substring(self):
         self.assertTrue(solution("aabc", "adsgbaacariojgw"))
 
@@ -14,6 +14,3 @@ class AnagramSubstringTestCase(unittest.TestCase):
     def test_anagram_substring3(self):
         self.assertTrue(solution("a", "adsgbaacariojgw"))
 
-
-if __name__ == '__main__':
-    unittest.main()

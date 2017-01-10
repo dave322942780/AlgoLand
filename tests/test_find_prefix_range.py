@@ -3,7 +3,7 @@ import unittest
 from find_prefix_range import solution
 
 
-class PrefixRangeTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_one(self):
         self.assertEqual((0, 0), solution(["aa", "bb"], "a"))
 
@@ -21,5 +21,3 @@ class PrefixRangeTestCase(unittest.TestCase):
             pass
 
 
-if __name__ == '__main__':
-    unittest.main()

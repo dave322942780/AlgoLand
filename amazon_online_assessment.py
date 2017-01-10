@@ -24,5 +24,5 @@ graph = [
 [3, 2],
 [1, 4]
 ]
-print solution(graph)
+# print solution(graph)
 # prints 2

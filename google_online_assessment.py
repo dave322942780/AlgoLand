@@ -7,7 +7,7 @@ def remove_repetitive_get_largest(number):
             # if the current removed digit is less
             # than the digit to right, simply return with ith digit removed,
             # it's already the max
-            if i + 1  < len(number) and number[i] < number[i + 1]:
+            if i + 1 < len(number) and number[i] < number[i + 1]:
                 return removed_ith
             else:
                 curMax = max(removed_ith, curMax)

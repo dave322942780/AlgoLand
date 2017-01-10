@@ -4,7 +4,7 @@ from data_structures_basic.BinaryNode import BinaryNode
 from print_tree_by_level import solution
 
 
-class PrintTreeByLevelTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_single_node(self):
         node = BinaryNode(1)
         self.assertEqual(str(node.value), solution(node))

@@ -4,7 +4,7 @@ import unittest
 from get_diagional import solution
 
 
-class GetDiagonalTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_get_diagonal_single(self):
         self.assertEqual(solution([[4]]), [[4]])
 
@@ -33,6 +33,3 @@ class GetDiagonalTestCase(unittest.TestCase):
                  [6, 8],
                  [9]])
 
-
-if __name__ == '__main__':
-    unittest.main()

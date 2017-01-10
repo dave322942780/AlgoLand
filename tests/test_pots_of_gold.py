@@ -56,6 +56,3 @@ class PotsOfGoldRecursiveTestCase(BaseTestClass.PotsOfGoldTestCase):
     def setUp(self):
         self.solution = recursive_solution
 
-
-if __name__ == '__main__':
-    unittest.main()

@@ -4,7 +4,7 @@ from data_structures_basic.BinaryNode import BinaryNode
 from is_symmetric_tree import solution
 
 
-class IsSymmeticTreeTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_root(self):
         self.assertTrue(solution(BinaryNode(None)))
 
@@ -53,6 +53,3 @@ class IsSymmeticTreeTestCase(unittest.TestCase):
                                       "[second_level_same[[forth_level_same]third_level_same]]]")
         ))
 
-
-if __name__ == '__main__':
-    unittest.main()
