@@ -3,38 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="668324eb-5322-4953-9953-0813074f14f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amazon_online_assessment.py" afterPath="$PROJECT_DIR$/amazon_online_assessment.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bomber.py" afterPath="$PROJECT_DIR$/bomber.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures_basic/BinaryNode.py" afterPath="$PROJECT_DIR$/data_structures_basic/BinaryNode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find_missing_number.py" afterPath="$PROJECT_DIR$/find_missing_number.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_diagional.py" afterPath="$PROJECT_DIR$/get_diagional.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google_interview.py" afterPath="$PROJECT_DIR$/google_interview.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google_online_assessment.py" afterPath="$PROJECT_DIR$/google_online_assessment.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max_boats.py" afterPath="$PROJECT_DIR$/max_boats.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/methods/bloom_filter.py" afterPath="$PROJECT_DIR$/methods/bloom_filter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiply_inverse.py" afterPath="$PROJECT_DIR$/multiply_inverse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_matrix_in_spiral.py" afterPath="$PROJECT_DIR$/print_matrix_in_spiral.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_tree_by_level.py" afterPath="$PROJECT_DIR$/print_tree_by_level.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorts/heap_sort.py" afterPath="$PROJECT_DIR$/sorts/heap_sort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_BSTQueue.py" afterPath="$PROJECT_DIR$/tests/test_BSTQueue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_anagram_substring.py" afterPath="$PROJECT_DIR$/tests/test_anagram_substring.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_bomber.py" afterPath="$PROJECT_DIR$/tests/test_bomber.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_bst_two_nodes_sum_to_k.py" afterPath="$PROJECT_DIR$/tests/test_bst_two_nodes_sum_to_k.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_disjoint_lst_max_abs_diff.py" afterPath="$PROJECT_DIR$/tests/test_disjoint_lst_max_abs_diff.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_divide_positive_negative.py" afterPath="$PROJECT_DIR$/tests/test_divide_positive_negative.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_fall_probability.py" afterPath="$PROJECT_DIR$/tests/test_fall_probability.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_find_prefix_range.py" afterPath="$PROJECT_DIR$/tests/test_find_prefix_range.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_get_diagonal.py" afterPath="$PROJECT_DIR$/tests/test_get_diagonal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_h_index.py" afterPath="$PROJECT_DIR$/tests/test_h_index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_is_symmetric_tree_tree.py" afterPath="$PROJECT_DIR$/tests/test_is_symmetric_tree_tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_k_palindrome.py" afterPath="$PROJECT_DIR$/tests/test_k_palindrome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_max_boats.py" afterPath="$PROJECT_DIR$/tests/test_max_boats.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_odd_occurences.py" afterPath="$PROJECT_DIR$/tests/test_odd_occurences.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_pots_of_gold.py" afterPath="$PROJECT_DIR$/tests/test_pots_of_gold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_print_tree_by_level.py" afterPath="$PROJECT_DIR$/tests/test_print_tree_by_level.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_smallest_range_in_lists.py" afterPath="$PROJECT_DIR$/tests/test_smallest_range_in_lists.py" />
     </list>
     <list id="78442662-b00a-498d-a6e7-f74aa2e0e847" name="Failed commit: Default" comment="Update File" />
     <ignored path="AlgoLand.iws" />
@@ -136,11 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max_boats.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="max_boats.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/max_boats.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -165,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/test_BSTQueue.py" />
         <option value="$PROJECT_DIR$/data_structures_basic/BSTQueue.py" />
         <option value="$PROJECT_DIR$/smallest_range_in_lists.py" />
         <option value="$PROJECT_DIR$/max_disjoint_lst_abs_diff.py" />
@@ -216,6 +193,7 @@
         <option value="$PROJECT_DIR$/print_matrix_in_spiral.py" />
         <option value="$PROJECT_DIR$/print_tree_by_level_zigzag.py" />
         <option value="$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,7 +225,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,22 +237,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgoLand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgoLand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -831,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485632117614</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update File">
+      <created>1485632373226</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1485632373226</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -870,7 +841,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.74857956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.74857956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -918,13 +889,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/test_is_symmetric_tree_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_bst_two_nodes_sum_to_k.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1253,6 +1217,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
