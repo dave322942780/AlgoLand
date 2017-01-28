@@ -1,17 +1,12 @@
 import unittest
 
-from max_boats import solution
+from longest_sequential_subset import solution
 
 
 class MyTestCase(unittest.TestCase):
     def test_one(self):
         self.assertEqual(1, solution([4]))
 
-    def test_two(self):
-        self.assertEqual(2, solution([4, 146]))
-        self.assertEqual(1, solution([5, 146]))
-
-    def test_multi(self):
-        self.assertEqual(3, solution([80, 80, 80]))
-        self.assertEqual(2, solution([80, 70, 80]))
-        self.assertEqual(2, solution([10, 10, 10]))
+    def test_general(self):
+        self.assertEqual([5, 6, 7], solution([6, 5, 1, 10, 7]))
+        self.assertEqual([4, 5, 6, 7], solution([6, 10, 4, 7, 9, 5]))
