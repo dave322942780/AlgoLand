@@ -42,12 +42,13 @@ class BinaryNode(object):
         return BinaryNode(self.value, left, right)
 
     def __str__(self):
-        res = str(self.value) + "\n"
-        if self.left or self.right:
-            res += "\t(left)" + self.left.__str__().strip("\n").replace("\n", "\n\t") + "\n"
-            res += "\t(right)" + self.right.__str__().strip("\n").replace("\n", "\n\t")
-        return res
+        def _str(node, level=0):
+            l = _str(node.left, level + 1) if node.left else ""
+            v = level * "\t" + str(node.value) + "\n"
+            r = _str(node.right, level + 1) if node.right else ""
+            return r + v + l
 
+        return _str(self)
     def __eq__(self, other):
         if other is None:
             return False
