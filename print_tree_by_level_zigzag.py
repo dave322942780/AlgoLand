@@ -19,3 +19,4 @@ def solution(root):
             backup_stack = []
             l_to_r = not l_to_r
     return "".join(map(lambda x: str(x), res))
+
