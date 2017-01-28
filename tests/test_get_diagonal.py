@@ -10,26 +10,25 @@ class MyTestCase(unittest.TestCase):
 
     def test_get_diagonal1(self):
         self.assertEqual(
-                solution(
-                        # matrix
-                        [[1, 2],
-                         [3, 4]]),
-                # output
-                [[1],
-                 [2, 3],
-                 [4]])
+            solution(
+                # matrix
+                [[1, 2],
+                 [3, 4]]),
+            # output
+            [[1],
+             [2, 3],
+             [4]])
 
     def test_get_diagonal2(self):
         self.assertEqual(
-                solution(
-                        # matrix
-                        [[1, 2, 3],
-                         [4, 5, 6],
-                         [7, 8, 9]]),
-                # output
-                [[1],
-                 [2, 4],
-                 [3, 5, 7],
-                 [6, 8],
-                 [9]])
-
+            solution(
+                # matrix
+                [[1, 2, 3],
+                 [4, 5, 6],
+                 [7, 8, 9]]),
+            # output
+            [[1],
+             [2, 4],
+             [3, 5, 7],
+             [6, 8],
+             [9]])

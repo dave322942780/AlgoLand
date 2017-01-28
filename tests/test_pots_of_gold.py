@@ -55,4 +55,3 @@ class PotsOfGoldDynamicTestCase(BaseTestClass.PotsOfGoldTestCase):
 class PotsOfGoldRecursiveTestCase(BaseTestClass.PotsOfGoldTestCase):
     def setUp(self):
         self.solution = recursive_solution
-

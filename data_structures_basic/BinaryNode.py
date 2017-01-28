@@ -49,6 +49,7 @@ class BinaryNode(object):
             return r + v + l
 
         return _str(self)
+
     def __eq__(self, other):
         if other is None:
             return False

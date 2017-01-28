@@ -13,4 +13,3 @@ class MyTestCase(unittest.TestCase):
 
     def test_anagram_substring3(self):
         self.assertTrue(solution("a", "adsgbaacariojgw"))
-

@@ -8,7 +8,6 @@ class MyTestCase(unittest.TestCase):
     def test_single_node(self):
         node = BinaryNode(1)
 
-
     def test_binary_tree(self):
         tree = BinaryNode.parse_tree("[[[3]2[[5]4]]1[[3[6]]8[9]]]", int)
         self.assertEqual("128934356", solution(tree))

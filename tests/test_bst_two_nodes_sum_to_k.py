@@ -5,7 +5,6 @@ from data_structures_basic.BinaryNode import BinaryNode
 
 
 class MyTestCase(unittest.TestCase):
-
     def test_many(self):
         tree = BinaryNode.parse_tree("[[1[[5]3[4]]]5[6[11]]]", int)
         sol = solution(tree, 10)
@@ -15,4 +14,3 @@ class MyTestCase(unittest.TestCase):
         tree = BinaryNode.parse_tree("[[1[[5]3[4]]]5[6[12]]]", int)
         sol = solution(tree, 12)
         self.assertIsNone(sol)
-

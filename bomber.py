@@ -1,7 +1,6 @@
 # given a map, find the x, y coordinate for which the coordinate yields the max horizontal and vertical hits
 # this is a google on site interview question
 def solution(map):
-
     if not map or not map[0]:
         return
 

@@ -14,4 +14,3 @@ def solution(weights, boat_capacity=150):
         j -= 1
         count += 1
     return count
-

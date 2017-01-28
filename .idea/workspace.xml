@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="668324eb-5322-4953-9953-0813074f14f8" name="Default" comment="Update File">
+    <list default="true" id="668324eb-5322-4953-9953-0813074f14f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_matrix_in_spiral.py" afterPath="$PROJECT_DIR$/print_matrix_in_spiral.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_max_boats.py" afterPath="$PROJECT_DIR$/tests/test_max_boats.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" />
-    </list>
-    <list id="78442662-b00a-498d-a6e7-f74aa2e0e847" name="Failed commit: Default" comment="Update File">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amazon_online_assessment.py" afterPath="$PROJECT_DIR$/amazon_online_assessment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bomber.py" afterPath="$PROJECT_DIR$/bomber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures_basic/BinaryNode.py" afterPath="$PROJECT_DIR$/data_structures_basic/BinaryNode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find_missing_number.py" afterPath="$PROJECT_DIR$/find_missing_number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_diagional.py" afterPath="$PROJECT_DIR$/get_diagional.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google_interview.py" afterPath="$PROJECT_DIR$/google_interview.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google_online_assessment.py" afterPath="$PROJECT_DIR$/google_online_assessment.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max_boats.py" afterPath="$PROJECT_DIR$/max_boats.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/methods/bloom_filter.py" afterPath="$PROJECT_DIR$/methods/bloom_filter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiply_inverse.py" afterPath="$PROJECT_DIR$/multiply_inverse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_matrix_in_spiral.py" afterPath="$PROJECT_DIR$/print_matrix_in_spiral.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_tree_by_level.py" afterPath="$PROJECT_DIR$/print_tree_by_level.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/print_tree_by_level_zigzag.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorts/heap_sort.py" afterPath="$PROJECT_DIR$/sorts/heap_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_BSTQueue.py" afterPath="$PROJECT_DIR$/tests/test_BSTQueue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_anagram_substring.py" afterPath="$PROJECT_DIR$/tests/test_anagram_substring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_bomber.py" afterPath="$PROJECT_DIR$/tests/test_bomber.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_bst_two_nodes_sum_to_k.py" afterPath="$PROJECT_DIR$/tests/test_bst_two_nodes_sum_to_k.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_disjoint_lst_max_abs_diff.py" afterPath="$PROJECT_DIR$/tests/test_disjoint_lst_max_abs_diff.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_divide_positive_negative.py" afterPath="$PROJECT_DIR$/tests/test_divide_positive_negative.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_fall_probability.py" afterPath="$PROJECT_DIR$/tests/test_fall_probability.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_find_prefix_range.py" afterPath="$PROJECT_DIR$/tests/test_find_prefix_range.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_get_diagonal.py" afterPath="$PROJECT_DIR$/tests/test_get_diagonal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_h_index.py" afterPath="$PROJECT_DIR$/tests/test_h_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_is_symmetric_tree_tree.py" afterPath="$PROJECT_DIR$/tests/test_is_symmetric_tree_tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_k_palindrome.py" afterPath="$PROJECT_DIR$/tests/test_k_palindrome.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_max_boats.py" afterPath="$PROJECT_DIR$/tests/test_max_boats.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_odd_occurences.py" afterPath="$PROJECT_DIR$/tests/test_odd_occurences.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_pots_of_gold.py" afterPath="$PROJECT_DIR$/tests/test_pots_of_gold.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_print_tree_by_level.py" afterPath="$PROJECT_DIR$/tests/test_print_tree_by_level.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" afterPath="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_smallest_range_in_lists.py" afterPath="$PROJECT_DIR$/tests/test_smallest_range_in_lists.py" />
     </list>
+    <list id="78442662-b00a-498d-a6e7-f74aa2e0e847" name="Failed commit: Default" comment="Update File" />
     <ignored path="AlgoLand.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/max_boats.py" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +117,18 @@
       <file leaf-file-name="test_max_boats.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_max_boats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_print_matrix_in_spiral.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -101,14 +136,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_print_matrix_in_spiral.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py">
+      <file leaf-file-name="max_boats.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/max_boats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,6 +158,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,10 +212,10 @@
         <option value="$PROJECT_DIR$/data_structures_basic/BinaryNode.py" />
         <option value="$PROJECT_DIR$/tests/test_print_tree_by_level_zigzag.py" />
         <option value="$PROJECT_DIR$/tests/test_max_boats.py" />
-        <option value="$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py" />
         <option value="$PROJECT_DIR$/max_boats.py" />
         <option value="$PROJECT_DIR$/print_matrix_in_spiral.py" />
         <option value="$PROJECT_DIR$/print_tree_by_level_zigzag.py" />
+        <option value="$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py" />
       </list>
     </option>
   </component>
@@ -210,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,10 +260,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgoLand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgoLand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,6 +708,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="668324eb-5322-4953-9953-0813074f14f8" name="Default" comment="" />
@@ -771,7 +824,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485632032282</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update File">
+      <created>1485632117614</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1485632117614</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,9 +870,9 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.74857956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.74857956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1138,17 +1198,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_max_boats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/max_boats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -1158,9 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,17 +1236,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_print_matrix_in_spiral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_boats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

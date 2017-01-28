@@ -16,13 +16,15 @@ def _solution(graph, x, y, max_x, max_y):
         # x, y is equivalent to the right down element.
         return [graph[x][y], graph[x][y]]
 
+
 def solution(graph):
     assert len(graph) != 0 and len(graph[0]) != 0
     return _solution(graph, 0, 0, len(graph), len(graph[0]))[1]
 
+
 graph = [
-[3, 2],
-[1, 4]
+    [3, 2],
+    [1, 4]
 ]
 # print solution(graph)
 # prints 2

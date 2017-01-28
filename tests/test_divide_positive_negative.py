@@ -28,5 +28,3 @@ class MyTestCase(unittest.TestCase):
         lst = [-3, 2, 4, -2, 6, 7, -5, -10]
         solution(lst)
         self.assertEqual(lst, [-3, -2, -5, -10, 2, 4, 6, 7])
-
-

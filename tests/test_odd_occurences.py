@@ -10,4 +10,3 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(len(res), 2)
         self.assertIn(4, res)
         self.assertIn(8, res)
-

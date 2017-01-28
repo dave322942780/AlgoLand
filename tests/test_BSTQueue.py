@@ -28,5 +28,3 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(min_bst_queue.get().value, 4)
         self.assertEqual(min_bst_queue.get().value, 5)
         self.assertEqual(min_bst_queue.get().value, 6)
-
-

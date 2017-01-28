@@ -47,5 +47,6 @@ def find_intersection_bloom_filter(lst1, lst2):
     return res
 
 
-assert ["gh", "ij", "kl", "mn", "op"] == find_intersection_bloom_filter(["ab", "cd", "ef", "gh", "ij", "kl", "mn", "op"],
-                                                                        ["gh", "ij", "kl", "mn", "op", "qr", "st", "uv", "wx", "yz"])
+assert ["gh", "ij", "kl", "mn", "op"] == find_intersection_bloom_filter(
+    ["ab", "cd", "ef", "gh", "ij", "kl", "mn", "op"],
+    ["gh", "ij", "kl", "mn", "op", "qr", "st", "uv", "wx", "yz"])

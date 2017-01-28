@@ -2,7 +2,7 @@ def remove_repetitive_get_largest(number):
     number = str(number)
     curMax = -1
     for i in range(1, len(number)):
-        if number[i] == number[i-1]:
+        if number[i] == number[i - 1]:
             removed_ith = int(number[:i] + number[i + 1:])
             # if the current removed digit is less
             # than the digit to right, simply return with ith digit removed,
@@ -13,12 +13,15 @@ def remove_repetitive_get_largest(number):
                 curMax = max(removed_ith, curMax)
     return curMax
 
+
 print remove_repetitive_get_largest(11233445)
 # prints 1233445
 print remove_repetitive_get_largest(133233445)
 # prints 13323445
 
 import re
+
+
 def get_files(str_rep, extension):
     prev_level = -1
     cur_path = []
@@ -29,24 +32,24 @@ def get_files(str_rep, extension):
         if prev_level != cur_level - 1:
             cur_path = cur_path[:cur_level]
         cur_path.append(line[cur_level:])
-        
+
         if cur_path[-1].endswith(extension):
             res.append("/".join(cur_path))
-            
+
         prev_level = cur_level
     return res
 
 
 str_rep = \
-'''dir
- dir1
-  dir11
-   dir111
- dir12
-  file.jpg
- dir2
-  file2.jpg
- dir3'''
+    '''dir
+     dir1
+      dir11
+       dir111
+     dir12
+      file.jpg
+     dir2
+      file2.jpg
+     dir3'''
 str_rep = str_rep.replace("\n", "")
 # str_rep is now 
 # 'dir dir1  dir11   dir111 dir12   file.jpg dir2  file2.jpg dir3'

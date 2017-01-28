@@ -12,9 +12,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(1, solution([5, 146]))
 
     def test_multi(self):
-        self.assertEqual(3, solution([80,80,80]))
-        self.assertEqual(2, solution([80,70,80]))
-        self.assertEqual(2, solution([10,10,10]))
-
-
-
+        self.assertEqual(3, solution([80, 80, 80]))
+        self.assertEqual(2, solution([80, 70, 80]))
+        self.assertEqual(2, solution([10, 10, 10]))
