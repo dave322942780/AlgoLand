@@ -6,10 +6,8 @@ from longest_sequential_subset import solution
 
 class MyTestCase(unittest.TestCase):
     def test_single(self):
-        self.assertTrue([5], solution(solution([5])))
+        self.assertTrue([5], solution([5]))
 
-    def test_anagram_substring2(self):
-        self.assertFalse(solution("aabc", "adsgbacriojgw"))
-
-    def test_anagram_substring3(self):
-        self.assertTrue(solution("a", "adsgbaacariojgw"))
+    def test_multi(self):
+        self.assertTrue([5, 6, 7, 8], solution([5, 7, 8, 2, 1, 6]))
+        self.assertTrue([5, 6, 7, 8], solution([5, 7, 8, 6]))
