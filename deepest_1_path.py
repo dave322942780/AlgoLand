@@ -1,6 +1,5 @@
 # https://careercup.com/question?id=7617672
 
-
 def solution(tree):
     def _solution(node, path):
         if node and node.value == 1:

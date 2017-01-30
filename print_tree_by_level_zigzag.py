@@ -1,3 +1,5 @@
+# https://www.careercup.com/question?id=9355240
+
 def solution(root):
     cur_stack = [root]
     backup_stack = []

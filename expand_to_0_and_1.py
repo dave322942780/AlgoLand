@@ -1,6 +1,5 @@
 # https://careercup.com/question?id=7617672
 
-
 def solution(str_inp):
     quest_indices = []
     for i, char in enumerate(str_inp):

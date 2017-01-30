@@ -1,6 +1,5 @@
 # https://www.careercup.com/question?id=5094709806497792
 
-
 def solution(lst):
     hashed_counts = [0, ] * len(lst)
     for i in lst:

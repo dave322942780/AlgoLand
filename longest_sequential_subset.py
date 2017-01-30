@@ -1,6 +1,5 @@
 # https://www.careercup.com/question?id=11070934
 
-
 def solution(lst):
     max_item = max(lst) + 1
     visited = [False] * max_item

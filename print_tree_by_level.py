@@ -1,4 +1,5 @@
 # https://www.careercup.com/question?id=5389078581215232
+
 def solution(tree):
     nodes_by_level = []
 

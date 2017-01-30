@@ -1,4 +1,4 @@
-# a list of sorted strings, find start and end indicies of the strings with same prefix
+# a list of sorted strings, find start and end indices of the strings with same prefix
 def solution(input_strs, prefix):
     def get_idx(prefix, is_start):
         i, j = 0, len(input_strs) - 1

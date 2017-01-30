@@ -1,4 +1,5 @@
 # https://www.careercup.com/question?id=6303093824159744
+
 def solution(weights, boat_capacity=150):
     weights.sort()
     if not weights:

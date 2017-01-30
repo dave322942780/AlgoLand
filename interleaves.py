@@ -1,6 +1,4 @@
 # https://careercup.com/question?id=14539805
-# https://careercup.com/question?id=14360665
-
 
 def solution_test_interleave(str1, str2, str):
     def _test_interleave(str1, str2, str):

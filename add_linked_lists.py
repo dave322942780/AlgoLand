@@ -1,3 +1,5 @@
+# https://careercup.com/question?id=12267020
+
 from data_structures_basic.Node import Node
 
 

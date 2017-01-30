@@ -1,4 +1,5 @@
 # https://www.careercup.com/question?id=21263687
+
 def solution(lst):
     lst = lst[:]
     for i in range(len(lst)):
