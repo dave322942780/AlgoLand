@@ -17,41 +17,39 @@ def remove_repetitive_get_largest(number):
 print remove_repetitive_get_largest(11233445)
 # prints 1233445
 print remove_repetitive_get_largest(133233445)
+
+
 # prints 13323445
 
-import re
 
-
-def get_files(str_rep, extension):
-    prev_level = -1
-    cur_path = []
+def get_files(str_rep):
+    file_structure = []
     res = []
-    for line in re.findall(" *[^ ]+", str_rep):
-        cur_level = len(re.search("^ *", line).group())
-        # didn't step in a directory
-        if prev_level != cur_level - 1:
-            cur_path = cur_path[:cur_level]
-        cur_path.append(line[cur_level:])
-
-        if cur_path[-1].endswith(extension):
-            res.append("/".join(cur_path))
-
-        prev_level = cur_level
+    for line in str_rep.strip().split("\n"):
+        lvl = 0
+        while line[lvl] == " ":
+            lvl += 1
+        if lvl == len(file_structure):
+            file_structure.append(line.lstrip(" "))
+        else:
+            file_structure[lvl] = line.lstrip(" ")
+        res.append("/".join(file_structure[:lvl + 1]))
     return res
 
 
 str_rep = \
-    '''dir
-     dir1
-      dir11
-       dir111
-     dir12
-      file.jpg
-     dir2
-      file2.jpg
-     dir3'''
-str_rep = str_rep.replace("\n", "")
+    """
+dir
+dir1
+ dir11
+  dir111
+dir12
+ file.jpg
+dir2
+ dir21
+ file2.jpg
+dir3"""
 # str_rep is now 
 # 'dir dir1  dir11   dir111 dir12   file.jpg dir2  file2.jpg dir3'
-print get_files(str_rep, ".jpg")
+print get_files(str_rep)
 # prints ['dir/dir12/file.jpg', 'dir/dir2/file2.jpg']
